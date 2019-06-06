@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GRAVITY",
-    "slug": "GRAVITY",
+    "name": "gravity",
+    "slug": "gravity",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -10,9 +10,9 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,7 +23,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBnEG2m4PNP17joVrQ4X-EBfWH0YJFDxYw"
+        }
+      }
+    },
+    "android": {
+      "package": "io.kidevelop.gravity",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBnEG2m4PNP17joVrQ4X-EBfWH0YJFDxYw"
+        }
+      }
     }
   }
 }
