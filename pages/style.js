@@ -72,5 +72,21 @@ export default StyleSheet.create({
         borderRadius: 50,
         justifyContent: 'center',
         alignItems: 'center'
+    },
+    chatbottom: {
+        backgroundColor: '#fafafa',
+        height: 100,
+        width: '100%',
+        paddingTop: 20
+    },
+    chatarray: {
+        width: '100%',
+        flexWrap: 'wrap', 
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        flexDirection:'row',
+        backgroundColor: '#fafafa',
+        paddingLeft: 10,
+        paddingRight: 25
     }
   });
